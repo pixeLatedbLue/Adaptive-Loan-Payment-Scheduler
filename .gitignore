@@ -1,41 +1,23 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# ===== C++ Build Files =====
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
 *.out
-*.app
+*.exe
+*.class
+a.out
 
-# debug information files
-*.dwo
+# ===== Debug / Temp =====
+*.log
+*.tmp
+
+# ===== VS Code =====
+.vscode/
+
+# ===== OS Junk =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== CMake / Build Folders (if ever used later) =====
+build/
+cmake-build-debug/
+cmake-build-release/
